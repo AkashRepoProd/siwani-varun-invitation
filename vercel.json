@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [{ "source": "/:path*", "destination": "https://sisters-wedding-celebration.akashgoutam1123.chatgpt.site/:path*" }],
+  "headers": [{ "source": "/:path*", "headers": [
+    { "key": "x-vercel-enable-rewrite-caching", "value": "0" },
+    { "key": "Cache-Control", "value": "no-store" }
+  ] }]
+}
